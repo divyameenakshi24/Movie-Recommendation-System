@@ -7,7 +7,7 @@ Here I have developed a movie recommendation system with count vectorization and
 ### Relational Schema
 ![relational schema](https://user-images.githubusercontent.com/75235402/232366902-541e2d34-7dc6-4ada-94ab-691211da431a.png)<br><br>
 ### SQL code
-``
+```
 CREATE TABLE Movie
 (
   date_of_release INT NOT NULL,
@@ -43,4 +43,4 @@ CREATE TABLE Actor_role
   PRIMARY KEY (role, _actor_ID),
   FOREIGN KEY (_actor_ID) REFERENCES Actor(_actor_ID)
 );
-``
+```
